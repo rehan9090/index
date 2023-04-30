@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us page</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+         <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: poppins;
+            }
+
+            .navbar-top{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.social-link i img{
+    margin-left: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.social-link i img:hover{
+    background-color: rgba(238,224,208);
+    border-radius: 50px;
+}
+@media screen and (max-width:420px){
+    .social-link i img{
+        width: 20px;
+    }
+}
+.logo h3{
+    font-weight: bold;
+}
+@media screen and (max-width:420px){
+    .logo h3{
+        font-size: 20px;
+    }
+}
+.icons i img{
+    margin-left: 10px;
+    cursor: pointer;
+}
+@media screen and (max-width:420px){
+    .icons i img{
+        width: 20px;
+    }
+}
+/* navbar top */
+/* main content */
+/* navbar */
+#navbar-color{
+    background-color: rgba(238,224,208);
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    margin-left: 30px;
+    font-weight: bold;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: green;
+}
+            #about-section {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 80px 12%;
+            }
+            .about-left img{
+                width: 460px;
+                height: auto;
+                transform: translateY(50px);
+                padding-right: 50px;
+                padding-bottom: 70px;
+            }
+            .about-right {
+                width: 54%;
+            }
+
+            .about-right ul li {
+                display: flex;
+                align-items: center;
+            }
+
+            .about-right h1 {
+                color: rgb(224, 164, 72);
+                font-size: 37px;
+                margin-bottom: 5px;
+            }
+
+            .about-right p {
+                color: #444;
+                line-height: 26px;
+                font-size: 15px;
+            }
+
+            .about-right .address {
+                margin: 25px 0;
+            }
+
+            .about-right .address ul li {
+                margin-bottom: 5px;
+            }
+
+            .address .address-logo {
+                margin-right: 15px;
+                color: rgb(224, 164, 72);
+            }
+
+            .address .saprater {
+                margin: 0 35px;
+            }
+
+            .about-right .expertise ul {
+                width: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .expertise h3 {
+                margin-bottom: 10px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+
+        <div class="container">
+            <div class="navbar-top">
+                <div class="social-link">
+                    <i><img src="./image/twitter.png" alt="" width="30px" ></i>
+                    <i><img src="./image/facebook.png" alt="" width="30px" href="facebook.com"></i>
+                    <i><img src="./image/google-plus.png" alt="" width="30px" href="google.com"></i>
+                </div>
+                <div class="logo">
+                    <h3>FURNITURE</h3>
+                </div>
+                <div class="icons">
+                    <i><img src="./image/search.png" alt="" width="20px"></i>
+                    <i><img src="./image/heart.png" alt="" width="20px"></i>
+                    <i><img src="./image/shopping-cart.png" alt="" width="25px"></i>
+                </div>
+            </div>
+        </div>
+        <!-- navbar top -->
+        <!-- main content -->
+        <div class="main-content">
+            <nav class="navbar navbar-expand-md" id="navbar-color">
+               <div class="container">
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span><i><img src="./image/menu.png" alt="" width="30px"></i></span>
+                </button>
+              
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="offer.html">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+               </div> 
+              </nav>
+
+
+        
+        <section id="about-section">
+            <!-- about left  -->
+            <div class="about-left">
+                <img src="./image/about-us.png" alt="About Img"/>
+            </div>
+
+            <!-- about right  -->
+            <div class="about-right">
+                <h1>About US</h1>
+                <p>Looking to purchase branded furniture for your home? Want to get affordable furniture for your house? Add class and panache to your offices with useful and smart furniture from Durian. Now you can get your furniture delivered to your doorstep at a time and date of your choosing with our flexible delivery plan along with free assembly and installation. Pay conveniently for your purchases with cash on delivery, credit card, debit card and easy monthly EMI installments. 
+                    
+                </p>
+                <div class="address">
+                    <ul>
+                        <li>
+                            <span class="address-logo">
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                            <p>Address</p>
+                            <span class="saprater">:</span>
+                            <p>Pune, Mahrashtra, India</p>
+                        </li>
+                        <li>
+                            <span class="address-logo">
+                                <i class="fas fa-phone-alt"></i>
+                            </span>
+                            <p>Phone No</p>
+                            <span class="saprater">:</span>
+                            <p>+91 8888888888</p>
+                        </li>
+                        <li>
+                            <span class="address-logo">
+                                <i class="far fa-envelope"></i>
+                            </span>
+                            <p>Email ID</p>
+                            <span class="saprater">:</span>
+                            <p>rehan@gmail.com</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="expertise">
+                    <h3>Our Expertise</h3>
+                    <ul>
+                        <li>
+                            <span class="expertise-logo">
+                                
+                            </span>
+                            <p>Sofas</p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                               
+                            </span>
+                            <p>Table</p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                                
+                            </span>
+                            <p>Desks</p>
+                        </li>
+                        <li>
+                            <span class="expertise-logo">
+                              
+                            </span>
+                            <p>Chairs</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>
